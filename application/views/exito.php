@@ -2,7 +2,7 @@
   	if($cantidad==false){
  	echo "<h1>Exito, la pelicula ha sido arrendada</h1>";
 } else{
- 	echo "<h1>Error, no quedan mas copias de la pelicula solicitada</h1>";
+ 	echo "<h1>Error, no quedan mas copias de la pelicula solicitada, o la pelicula no existe</h1>";
 }
 
 ?>

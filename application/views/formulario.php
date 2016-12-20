@@ -40,8 +40,9 @@
 	<?= form_input($cantidad)?>
 </label>
 <br>
-<?= form_submit("","Agregar Pelicula")?>
+<?= form_submit("sdsd","Agregar Pelicula", "class='btn btn-lg btn-success'")?>
+<a href="http://127.0.0.1:8888/Codeigniter/CodeIgniter-3.1.2/index.php/prueba/mostrar" class="btn btn-lg btn-primary">Ver lista</a>
 <?= form_close()?>
 </body>
-<a href="http://127.0.0.1:8888/Codeigniter/CodeIgniter-3.1.2/index.php/prueba/mostrar" class="btn btn-lg btn-primary">Ver lista</a>
+
 </html>

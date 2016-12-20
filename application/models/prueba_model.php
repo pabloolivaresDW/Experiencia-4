@@ -23,6 +23,8 @@ class Prueba_model extends CI_Model {
 
   public function arrendar_model($nombre){
   	$this->db->where('nombre', $nombre['nombre']);
+    $query='UPDATE peliculas SET cantidad=cantidad-1 WHERE nombre='. '"'.$nombre['nombre'] .'"' ;
+    $this->db->query($query);
   	$query=$this->db->get('peliculas');
   	if($query->num_rows()>0){
       $peliculas=$query->result();
